@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.sw* {
+  margin: 0;
+}
+
+body{
+    /* font-family: "Gill Sans Extrabold", sans-serif; */
+    background-color: #ecfdf3;
+}
+#nav_heading {
+  padding:10px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bolder;
+  font-size: 2.5rem;
+  background-color: #fff;
+  box-shadow: rgba(10, 160, 35, 0.15) 0px 48px 200px 0px;
+
+  font-family: 'Roboto Slab', serif;
+}
+
+section{
+    height:calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(42, 8, 234, 0.15) 0px 48px 100px 0px;
+}
+section .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:500px;
+
+    height:300px;
+    border-radius: 1rem;
+    background: #2cbc63;
+    border: 2px solid #033510;
+}
+
+#heading{
+    /* margin-top:-1rem; */
+    font-size: 1.8rem;
+}
+
+#uploadDiv{
+    margin-top:2rem;
+    width: 150px;
+    height:70px;
+    background-color:#fff;
+    border: 2px solid #033510;
+    border-radius: 0.5rem;
+    line-height:70px;
+    text-align: center;
+    font-weight: 600;
+    
+    font-family: 'Roboto Slab', serif;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+#uploadDiv:hover{
+    cursor:pointer;
+}
+
+#uploadDiv:active{
+    transform: scale(0.95);
+}
